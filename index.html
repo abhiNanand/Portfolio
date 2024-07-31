@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Abhishek Anand - Software Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: rgb(0,0,33);
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(3, 3, 107);
+    }
+    .left {
+      font-size: 1.5rem;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+    nav ul li a:hover {
+      color: rgb(135, 135, 234);
+      font-size: 1.02rem;
+    }
+    .firstsection {
+      display: flex;
+      justify-content: space-around;
+      margin: 50px 0;
+    }
+    .leftsection {
+      width: 70%;
+      margin: 30px 0 0 12%;
+      font-size: 2rem;
+    }
+    .rightsection {
+      margin: 0 0 0 10%;
+    }
+    .rightsection img {
+      width: 40%;
+    }
+    #element {
+      color: rgb(170,107,228);
+    }
+    main hr {
+      border: 0;
+      background: #9c97f1;
+      height: 1.2px;
+      margin: 40px 84px;
+    }
+    .secondSection, .thirdSection, .fourthSection, .fifthSection, .sixthSection, .aboutSection {
+      margin-left: 10%;
+    }
+    .text-grey {
+      color: grey;
+      font-size: smaller;
+    }
+    .box {
+      background: white;
+      width: 80vw;
+      height: 2px;
+      margin: 56px 0;
+      display: flex;
+    }
+    .verticle {
+      height: 93px;
+      width: 1px;
+      background-color: white;
+      margin: 0px 100px;
+    }
+    footer {
+      background-color: rgb(3, 3, 107);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+    footer a:hover {
+      color: rgb(135, 135, 234);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">Abhishek's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi, My name is <span style="color:purple">Abhishek</span>.
+        <div>I am an aspiring Software Developer</div>
+        <span id="element"></span>
+      </div>
+      <div class="rightsection"><img src="a.png" alt=""></div>
+    </section>
+    <hr>
+    <section class="aboutSection" id="about">
+      <h1>About Me</h1>
+      <p>
+        I am Abhishek Anand, a passionate and dedicated software developer from India. Currently pursuing my Bachelor of Technology in Computer Science and Engineering at Lovely Professional University, I specialize in web development and data structures. I am skilled in various programming languages including C, C++, C#, Python, and R, and proficient in frameworks such as HTML, CSS, JavaScript, ASP.NET Core, and React.js.
+      </p>
+      <p>
+        With hands-on experience in front-end development, I have worked on several projects including an E-commerce website, a Phonebook Management System, and a CGPA and TGPA Calculator. I am also a competitive coder, actively participating in coding challenges on platforms like CodeChef and HackerRank.
+      </p>
+      <p>
+        My goal is to leverage my technical skills and creativity to develop innovative solutions and contribute to impactful projects. I am always eager to learn and grow, and I look forward to new challenges in the field of software development.
+      </p>
+    </section>
+    <hr>
+    <section class="secondSection">
+      <h1>Education</h1>
+      <ul>
+        <li>
+          <strong>Bachelor of Technology in Computer Science and Engineering</strong><br>
+          Lovely Professional University, India<br>
+          Expected Graduation: 2025
+        </li>
+      </ul>
+    </section>
+    <section class="thirdSection" id="projects">
+      <h1>Projects</h1>
+      <ul>
+        <li>
+          <strong>E-commerce Website</strong> (Feb '24 – Apr '24)
+          <p>Utilized HTML, CSS, and JavaScript to create a user-friendly interface, detailed product pages, and dynamic shopping cart functionality.</p>
+        </li>
+        <li>
+          <strong>Phonebook Management System</strong> (Jul '23 – Aug '23)
+          <p>Developed using C++ with linked list and File I/O for efficient contact management, including add, delete, edit, and search features.</p>
+        </li>
+        <li>
+          <strong>CGPA and TGPA Calculator</strong> (Sep '22 – Oct '22)
+          <p>Created with Python and Tkinter GUI for TGPA and CGPA computation, allowing real-time calculations and customizable features.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="fourthSection">
+      <h1>Achievements</h1>
+      <ul>
+        <li>2 stars on CodeChef, 4 stars in problem-solving on HackerRank.</li>
+        <li>Accomplished 450 Data Structures and Algorithm Questions on Geeks for Geeks.</li>
+        <li>Top 10 in problem-solving quiz in Challenging Future Programmers 2022 at LPU.</li>
+      </ul>
+    </section>
+    <section class="fifthSection">
+      <h1>Certifications</h1>
+      <ul>
+        <li>Excel Basics for Data Analysis by Coursera (April '24)</li>
+        <li>Building React Application with ASP.NET MVC5 by Board Infinity (May '24)</li>
+        <li>JavaScript for Web Development by Board Infinity (May '23)</li>
+        <li>Training in C/C++ by Internshala (Dec '21)</li>
+      </ul>
+    </section>
+  </main>
+  
+  <footer>
+    <p>Contact me: <a href="mailto:abhishekanand7019@gmail.com">abhishekanand7019@gmail.com</a> | Phone: +91-7091400186 | <a href="https://github.com/abhishekanand7019" target="_blank">GitHub</a></p>
+  </footer>
+  
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: [' Web Developer.', ' Competitive Coder.', ' Web Designer.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
